@@ -1,4 +1,4 @@
-# NLearning Better with Less: Effective Augmentation for Sample-Efficient Visual Reinforcement Learning
+# CycAug on CARLA
 
 ## Requirements
 the simplest way to install all required dependencies is to create an anaconda environment by running:
