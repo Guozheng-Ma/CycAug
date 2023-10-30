@@ -1,4 +1,4 @@
-# CycAug on CARLA
+# CycAug Implementation on CARLA
 
 ## Requirements
 the simplest way to install all required dependencies is to create an anaconda environment by running:
