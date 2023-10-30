@@ -38,6 +38,8 @@ To investigate this issue and further explore the potential of DA, we conduct co
 
 The implementation of CycAug on DMC tasks and CARLA tasks can be found in the respective subfolders named `CycAug_on_DMC` and `CycAug_on_CARLA`.
 
+If you encounter any issues during the implementation process, please feel free to reach out to me via email at [mgz21@mails.tsinghua.edu.cn](mailto:mgz21@mails.tsinghua.edu.cn).
+
 ## 📝 Citation
 If this repository is useful to you, please consider citing our paper:
 ```
