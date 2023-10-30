@@ -34,6 +34,9 @@ To investigate this issue and further explore the potential of DA, we conduct co
 - For individual DA operations, we reveal that both ample spatial diversity and slight hardness are indispensable. Building on this finding, we introduce Random PadResize (Rand PR), a new DA operation that offers abundant spatial diversity with minimal hardness. 
 - For multi-type DA fusion schemes, the increased DA hardness and unstable data distribution result in the current fusion schemes being unable to achieve higher sample efficiency than their corresponding individual operations. **Taking the non-stationary nature of RL into account, we propose a RL-tailored multi-type DA fusion scheme called Cycling Augmentation (CycAug), which performs periodic cycles of different DA operations to increase type diversity while maintaining data distribution consistency**.
 
+## 🤖 Implementation
+
+The implementation of CycAug on DMC tasks and CARLA tasks can be found in the respective subfolders named `CycAug_on_DMC` and `CycAug_on_CARLA`.
 
 ## 📝 Citation
 If this repository is useful to you, please consider citing our paper:
