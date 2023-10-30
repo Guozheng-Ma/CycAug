@@ -1,25 +1,5 @@
+# CycAug Implementation on DeepMind Control suite
 
-
-# DrQ-v2: Improved Data-Augmented RL Agent
-
-This is an original PyTorch implementation of DrQ-v2 from
-
-[[Mastering Visual Continuous Control: Improved Data-Augmented Reinforcement Learning]](https://arxiv.org/abs/2107.09645) by
-
-[Denis Yarats](https://cs.nyu.edu/~dy1042/), [Rob Fergus](https://cs.nyu.edu/~fergus/pmwiki/pmwiki.php), [Alessandro Lazaric](http://chercheurs.lille.inria.fr/~lazaric/Webpage/Home/Home.html), and [Lerrel Pinto](https://www.lerrelpinto.com).
-
-<p align="center">
-  <img width="19.5%" src="https://i.imgur.com/NzY7Pyv.gif">
-  <img width="19.5%" src="https://imgur.com/O5Va3NY.gif">
-  <img width="19.5%" src="https://imgur.com/PCOR9Mm.gif">
-  <img width="19.5%" src="https://imgur.com/H0ab6tz.gif">
-  <img width="19.5%" src="https://imgur.com/sDGgRos.gif">
-  <img width="19.5%" src="https://imgur.com/gj3qo1X.gif">
-  <img width="19.5%" src="https://imgur.com/FFzRwFt.gif">
-  <img width="19.5%" src="https://imgur.com/W5BKyRL.gif">
-  <img width="19.5%" src="https://imgur.com/qwOGfRQ.gif">
-  <img width="19.5%" src="https://imgur.com/Uubf00R.gif">
- </p>
 
 ## Method
 DrQ-v2 is a model-free off-policy algorithm for image-based continuous control. DrQ-v2 builds on [DrQ](https://github.com/denisyarats/drq), an actor-critic approach that uses data augmentation to learn directly from pixels. We introduce several improvements including:
